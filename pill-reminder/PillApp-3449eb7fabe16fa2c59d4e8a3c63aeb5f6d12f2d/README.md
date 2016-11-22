@@ -20,13 +20,18 @@ See GitHub issues. (https://github.com/Qitalach/PillApp/issues)
 
 Use Cases and What Each Button Does:
 ---
-In the Home page, you will see 3 buttons in the top right of the application.
+In the Home page, you will see 5 buttons in the top right of the application.
 ######Plus sign: 
 This will take you to the Add Activity where you will be able to create an alarm. The application will automatically link up all the alarms to a specific pill with the same Pill Name. If you attempt to create an alarm to a pill that does not exist, it will automatically create a pill object for you.
 ######Suitcase sign: 
 This will take you to the Pill Box Activity where you will be able to see all the pills and alarms created. This will also be the place where you can edit and delete any pill and alarm you desire.
 ######Calendar sign: 
 This will take you to the Schedule Activity where you can see all the pills and alarms organized by the day of week.
+######SOS EDIT list: 
+This will take you to the  Activity where you can see all the atmost 5 contacts saved which will be used by the emergency button to send the emergency message to this list , you can edit this list in this activity.
+######SOS button: 
+This will take you to the  SMS Activity where you can see all the  5 contacts in recepient column and a standar emergency message with your current location is already typed you just need to click send but if your mobile data is off it says location not found and asks to enable your mobile data.
+
 
 ######List of use cases:
 - Add an alarm: Press the plus sign button and go to the Add Activity. Enter information and press "Set Alarm".
@@ -37,14 +42,9 @@ This will take you to the Schedule Activity where you can see all the pills and 
 - View the schedule for the whole week: Press the calendar sign button and go to the Schedule Activity.
 - View the alarms by pill: Press the suitcase sign button and go to the Pill Box Activity.
 - View the history: Swipe to the history tab on the home screen.
+-Edit your SOS list by pressing the add contact button
+-Send emergency sms - tap to thhe red siren button which will proceed to send the emergency msg with current location.
+send email report- go to history fragment and tap on the send email button .
 
-Attributions:
----
-- We use the icon designed by MedicalWP and obtained from IconArchive.com (http://www.iconarchive.com/show/medical-icons-by-medicalwp/Pills-blue-icon.html).
-- We use the Android Launcher Icon Generator (https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html) to generator the icon image files and save them in the res/mipmap folder.
-- Some fonts are Roboto fonts designed by Google. We store all the Roboto fonts (including those we never used but may be used in the future) in the assets/fonts folder. We get all the font files from Google at http://developer.android.com/design/style/typography.html.
-- We use the Android Action Bar Style Generator created by Jeff Gilfelt (http://jgilfelt.github.io/android-actionbarstylegenerator/) to generate the theme of our action bar. Themes are saved in style.xml in the res/values folder. All the image files associated with the themes are saved in the res/drawable folder. 
-- We use the Android Action Bar and Tab Icon Generator (https://romannurik.github.io/AndroidAssetStudio/icons-actionbar.html) to generator the action bar icons. All the related image files are saved in the res/drawable folder. 
-- We store the hex codes of all the light blue colors from Google’s color palette (http://www.google.com/design/spec/style/color.html) in colors.xml in the res/values folder. 
-- We use the codes from a couple of tutorials online as our templates. We include their links in the comments in the files that utilize them. See more details in files in the java folder.
-- This project was created by Charles Park, Qinghao Peng, Laura Barstow, and Taylor Keppler. Special thanks to Paul Cantrell for making this experience possible with all the help, guidance, and support!
+
+
